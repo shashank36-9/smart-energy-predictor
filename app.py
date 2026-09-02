@@ -7,7 +7,7 @@ import streamlit as st
 
 # 1. Download model from Google Drive if not present locally
 MODEL_PATH = "aep_smart_energy_model.pkl"
-FILE_ID = "YOUR_GOOGLE_DRIVE_FILE_ID_HERE"  # Put your real File ID here inside quotes
+FILE_ID = "https://drive.google.com/file/d/1tVNUbw4emn4jUcRHYL64wyJEi8OeH9b-/view?usp=sharing"  # Put your real File ID here inside quotes
 
 @st.cache_resource
 def load_model():
